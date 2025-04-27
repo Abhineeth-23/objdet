@@ -6,7 +6,7 @@ import time
 import base64
 
 # Hugging Face API details
-API_URL = "https://api-inference.huggingface.co/models/Ultralytics/YOLOv8"
+API_URL = "https://api-inference.huggingface.co/models/facebook/detr-resnet-50"
 HF_TOKEN = "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"  # <-- Replace with your token
 
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
