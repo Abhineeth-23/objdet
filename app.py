@@ -15,7 +15,7 @@ def query_huggingface_api(image_bytes):
     response = requests.post(API_URL, headers=headers, data=image_bytes)
     return response
 
-st.title("YOLOv8 Object Detection via Hugging Face 🚀")
+st.title("Object Detection via Hugging Face 🚀")
 st.write("Upload an image and detect objects using Hugging Face API!")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
