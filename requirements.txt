@@ -1,0 +1,6 @@
+streamlit
+torch
+ultralytics
+Pillow
+requests
+opencv-python-headless
